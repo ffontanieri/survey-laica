@@ -243,7 +243,7 @@ footer { background: var(--hero-dark); color: white; text-align: center; padding
 .context-list li::marker { color: var(--mint-text); }
 .context-closing { margin-bottom: 0; }
 .context-highlight { font-style: italic; opacity: 0.6; font-size: 15px; }
-.context-wrap { max-width: 820px; margin: 0 auto; padding: 0 24px 48px; }
+.context-wrap { padding: 0 0 40px 0; }
 .info-intro { font-size: 14px; color: var(--muted); margin-bottom: 20px; }
 
 .footer-copy { vertical-align: middle; }
@@ -317,6 +317,24 @@ footer { background: var(--hero-dark); color: white; text-align: center; padding
             <label for="data" data-i18n="lbl-data">Date</label>
             <input type="date" id="data" name="data">
           </div>
+        </div>
+      </div>
+
+      <div class="context-wrap">
+        <div class="context-card">
+          <div class="context-label" data-i18n="ctx-1-label">01 · Objective</div>
+          <p class="context-body" data-i18n="ctx-1-p1">The goal of this work was to gather as much information as possible to identify a communication strategy and a storytelling approach capable of seamlessly integrating:</p>
+          <ul class="context-list">
+            <li data-i18n="ctx-1-li1">the products in the Laica catalogue</li>
+            <li data-i18n="ctx-1-li2">the new categories currently in development</li>
+          </ul>
+          <p class="context-body context-closing" data-i18n="ctx-1-p2">We were looking for an idea that would highlight every Laica product as part of a single, powerful story.</p>
+        </div>
+
+        <div class="context-card">
+          <div class="context-label" data-i18n="ctx-2-label">02 · The Red Thread</div>
+          <p class="context-body" data-i18n="ctx-2-p1">We looked for a way to unite our worlds — <em>filtration, vacuum preservation, health</em> — not through the products themselves, but through the meaning they hold for people.</p>
+          <p class="context-body context-closing context-highlight" data-i18n="ctx-2-p2">Here it is…</p>
         </div>
       </div>
 
@@ -463,24 +481,6 @@ footer { background: var(--hero-dark); color: white; text-align: center; padding
       </div>
 
     </form>
-  </div>
-
-  <div class="context-wrap">
-    <div class="context-card">
-      <div class="context-label" data-i18n="ctx-1-label">01 · Objective</div>
-      <p class="context-body" data-i18n="ctx-1-p1">The goal of this work was to gather as much information as possible to identify a communication strategy and a storytelling approach capable of seamlessly integrating:</p>
-      <ul class="context-list">
-        <li data-i18n="ctx-1-li1">the products in the Laica catalogue</li>
-        <li data-i18n="ctx-1-li2">the new categories currently in development</li>
-      </ul>
-      <p class="context-body context-closing" data-i18n="ctx-1-p2">We were looking for an idea that would highlight every Laica product as part of a single, powerful story.</p>
-    </div>
-
-    <div class="context-card">
-      <div class="context-label" data-i18n="ctx-2-label">02 · The Red Thread</div>
-      <p class="context-body" data-i18n="ctx-2-p1">We looked for a way to unite our worlds — <em>filtration, vacuum preservation, health</em> — not through the products themselves, but through the meaning they hold for people.</p>
-      <p class="context-body context-closing context-highlight" data-i18n="ctx-2-p2">Here it is…</p>
-    </div>
   </div>
 
   <footer><span class="footer-copy" data-i18n="footer-copy">© Moma Comunicazione srl — LAICA Survey</span></footer>
